@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero{
+  max-width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: 2;
+}
+.nav{
+  top: 2%;
+  left: 5%;
+  transform: translate();
+  box-shadow: 20px;
+}
+.hero-content{
+position: absolute;
+text-transform: uppercase;
+color: wheat;
+transform: translate(-50%, -50%);
+top: 20%;
+left: 50%;
+max-width: 620px;
+text-align: center;
+}
+
+.hero-2{
+  max-width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-2-content{
+  z-index: 2;
+  position:absolute;
+  top: 10%;
+  left: 20%;
+}
+
+nav ul li:hover{
+  text-decoration: underline;
+}
+
+.hero-3{
+  position: absolute;
+  z-index: 10 ;
+
+}
