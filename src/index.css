@@ -55,6 +55,127 @@ nav ul li:hover{
 
 .hero-3{
   position: absolute;
-  z-index: 10 ;
+  z-index: 10;
+  top: 260%;
+  left: 30%;
 
 }
+
+
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;  
+}
+.slide-content{
+  margin: 0 50px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  box-shadow: black;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+
+.card-image{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background: #FFF;
+  padding: 3px;
+}
+
+.name{
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+.swiper-navBtn{
+  color: white;
+  transition: color 0.3s ease;
+  background-color: #f36d0d;
+  border-radius: 40px;
+  width: 40px;
+  border-color: gray;
+  border-width: 1px;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 15px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 40px;
+    max-width: 400px;
+  }
+
+}
+
+.services-hr{
+  position: relative;
+  background-color: orange;
+  width: 208px;
+  z-index: 999;
+  height: 8px;
+  animation: servicesunderline 2s ease-out 2s 1s backwards ;
+}
+
+@keyframes servicesunderline {
+  from{
+    width: 20px;
+  }
+  to{
+    width: 208px;
+  }
+}
+
