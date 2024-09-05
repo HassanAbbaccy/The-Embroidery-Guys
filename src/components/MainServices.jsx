@@ -55,8 +55,8 @@ function MainServices() {
                 <div className="card-image">
                   <img
                     src={card1}
-                    alt=""
-                    className="card-img"
+                    alt="Home"
+                    className="card-img hover:blur-sm"
                   />
                 </div>
               </div>

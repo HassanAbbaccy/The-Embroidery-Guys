@@ -12,6 +12,8 @@ import icon from "../assets/icon.png";
 import shopicon from "../assets/shop-icon.png";
 import slider1 from "../assets/logo1.png";
 import MainServices from "../components/MainServices";
+import MainPricing from "../components/MainPricing";
+import LatestSews from "../components/LatestSews";
 
 function Home() {
   return (
@@ -162,6 +164,9 @@ function Home() {
         </div>
       </div>
       <MainServices></MainServices>
+      <MainPricing></MainPricing>
+      <LatestSews></LatestSews>
+      
     </>
   );
 }
